@@ -2,8 +2,8 @@
 const usuarios = [];
 
 // Función principal
-function iniciarEcoTracker() {
-    alert("Bienvenido a EcoTracker: Aprende sobre el cambio climático y cómo reducir tu impacto en el medio ambiente.");
+function iniciarApp() {
+    alert("Bienvenido: Aprende sobre el cambio climático y cómo reducir tu impacto en el medio ambiente.");
     let continuar = true;
 
     while (continuar) {
@@ -27,7 +27,7 @@ function iniciarEcoTracker() {
                 break;
             case "4":
                 continuar = false;
-                alert("Gracias por usar EcoTracker. ¡Hasta pronto!");
+                alert("Gracias por usar nuestra aplicación. ¡Hasta pronto!");
                 break;
             default:
                 alert("Opción no válida. Inténtalo de nuevo.");
@@ -100,4 +100,4 @@ function mostrarConsejos() {
     }
 }
 
-iniciarEcoTracker();
+iniciarApp();
